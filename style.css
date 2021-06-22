@@ -1,3 +1,30 @@
-h1 {
-  color: plum
+/* show all elements in outlined red */
+div, section, main, aside, header {
+  outline: 1px solid red;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+main {
+  padding: 0em 1em 10em 1em;
+  border-top: 1px solid grey;
+}
+
+aside {
+  padding-right: .5em;
+}
+
+section {
+  padding: 0px 3em;
+  border-left: 1px dashed grey;
+}
+
+.blue {
+  color: blue;
 }
